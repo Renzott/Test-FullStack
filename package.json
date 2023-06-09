@@ -1,0 +1,33 @@
+{
+  "name": "test-fullstack",
+  "version": "1.0.0",
+  "description": "Por medio de este test se evaluarán algunos de tus conocimientos que nos interesan como desarrollador.",
+  "main": "codigo.js",
+  "scripts": {
+    "start": "node codigo.js",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autoredteam/Test-FullStack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autoredteam/Test-FullStack/issues"
+  },
+  "homepage": "https://github.com/autoredteam/Test-FullStack#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@types/jest": "^29.5.2",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  }
+}
